@@ -8,5 +8,4 @@
 ![alt text](https://github.com/MOR-Practicals/ABC-Analysis/blob/main/Screenshot%20ABC%20Analysis.png)
 
 
->Regards,
 > Manavv Kalra
