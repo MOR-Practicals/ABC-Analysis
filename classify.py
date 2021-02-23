@@ -48,11 +48,11 @@ def donut(summ):
     fig = make_subplots(rows=2, cols=2, specs=specs)
     fig.add_trace(go.Pie(labels=summ.index, values=summ['Total Cost'], title='Total Cost'), 1, 1)
     fig.add_trace(go.Pie(labels=summ.index, values=summ['Cost Percentage'], title='Cost %'), 1, 2)
+    fig.update_traces(hole=.75, hoverinfo="label+percent+name")
     fig.add_trace(go.Pie(labels=summ.index, values=summ['Frequency'], title='Frequency'), 2, 1)
     fig.add_trace(go.Pie(labels=summ.index, values=summ['Share Percentage'], title='Share %'), 2,2)
-    fig.update_traces(hole=.75, hoverinfo="label+percent+name")
     fig = go.Figure(fig)
-    fig.update_layout(title_text='Donut Plot')
+    fig.update_layout(title_text='Donut & Pie Plot')
     save(fig,'Donut')
     
     
