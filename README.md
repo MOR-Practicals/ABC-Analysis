@@ -9,7 +9,7 @@ DATASET FORMAT:
 3 columns - 'Item-code','Annual Demand','Unit Price'  (Can have duplicate entries)
 
 
-![alt text](https://github.com/MOR-Practicals/ABC-Analysis/blob/main/Screenshot%20ABC%20Analysis.png)
+![alt text](https://github.com/MOR-Practicals/ABC-Analysis/blob/main/Screenshot.png)
 
 
 > Manavv Kalra
